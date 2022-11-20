@@ -1,13 +1,13 @@
 {
     "name": "auto-comment-blocks",
-    "displayName": "Auto Comment Blocks",
+    "displayName": "(Fork) Auto Comment Blocks",
     "description": "Provides block comment completion for Javadoc-style multi-line comments and single-line comment blocks for most officially supported languages.",
-    "version": "1.0.1",
-    "publisher": "kevinkyang",
-    "homepage": "https://github.com/kevinkyang/auto-comment-blocks",
+    "version": "1.0.2",
+    "publisher": "brianbuie",
+    "homepage": "https://github.com/brianbuie/auto-comment-blocks",
     "repository": {
         "type": "git",
-        "url": "https://github.com/kevinkyang/auto-comment-blocks.git"
+        "url": "https://github.com/brianbuie/auto-comment-blocks.git"
     },
     "license": "SEE LICENSE IN LICENSE",
     "icon": "img/icon.png",
@@ -128,10 +128,10 @@
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.0.3",
-        "vscode": "^1.0.0",
-        "mocha": "^2.3.3",
+        "@types/mocha": "^2.2.32",
         "@types/node": "^6.0.40",
-        "@types/mocha": "^2.2.32"
+        "mocha": "^2.3.3",
+        "typescript": "^2.9.2",
+        "vscode": "^1.0.0"
     }
 }

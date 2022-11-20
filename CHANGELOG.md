@@ -3,6 +3,11 @@ All notable changes to this extension will be documented in this file.
 
 <!--Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.-->
 
+## [1.0.2]
+- Forked from [original repo](https://github.com/kevb34ns/auto-comment-blocks)
+- Add multi-line support for Javascript and Typescript
+- Add compiled .vsix file to download/install instead of publishing to VSCode marketplace
+
 ## [1.0.1]
 - Add multi-line support for Rust, Go
 - Add single-line support for YAML
